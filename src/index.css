@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;1,400&family=PT+Sans&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Inter:wght@800;900&family=PT+Sans&family=Poppins&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-DM_Sans;
+  }
+}
+.section {
+  @apply container mx-auto mb-10 sm:mb-0 py-10 px-4 sm:px-24;
+}
